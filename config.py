@@ -2,10 +2,11 @@ import os
 
 DEBUG = True
 # TESTING = True
-MYSQL_HOST = 'localhost'
-MYSQL_USER = 'root'
-MYSQL_PASSWORD = os.getenv('MYSQL_PWD')
-MYSQL_DB = 'tracker'
+user="k12"
+password="Qwerty123"
+host="k12.mysql.database.azure.com"
+port=3306
+database="tracker"
 MYSQL_CURSORCLASS = 'DictCursor'
 SECRET_KEY = 'your_secret_key'
 MAIL_SERVER = 'smtp.googlemail.com'
