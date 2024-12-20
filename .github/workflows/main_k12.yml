@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'k12'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_05BFD3294D304507833DAF09F9555BF7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1E1A03B2D8484780A5484D4A383ECE9C }}
